@@ -1,0 +1,39 @@
+    background-image: linear-gradient(to right, #0d2c54 0%, #0d2c54 51%, #232526 100%);
+}
+.btn{
+    background-position: right center;
+    color: #fff
+    text-decoration: none;
+}
+
+.btn 1{
+    display: flex;
+}
+
+.btn 2{
+      justify-content: center;
+}
+
+/* MOBILE DESIGN */
+@media (max-width: 500px) {
+  body{
+      height: 10px;
+}
+  .counter{
+         text-align: center;
+         margin-right: 50px;
+         margin-left: 50px;
+    
+         height:80vh;
+         width: auto;
+}
+  
+  #counter{
+       font-weight: 400px;
+       font-size: 3em;
+}
+  
+  #display{
+       font-size: 150px;
+       margin-top: 8px;
+}
